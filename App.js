@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         },
         text1: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
         },
         text2: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
         },
         text3: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         },
         text4: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
         },
         text5: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
         },
         text6: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
         },
         text7: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
         },
         text8: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 5,
             fontSize: 20,
             borderColor: "black",
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
         },
         text9: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
         },
         text10: {
             color: '#000',
-            marginTop: 15,
+            marginTop: 20,
             paddingVertical: 15,
             fontSize: 20,
             borderColor: "black",
