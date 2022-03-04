@@ -26,20 +26,19 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 const App = () => (
-  <ScrollView>
-  <View style={styles.container}>
+  <ScrollView style={styles.container}>
     <Text style={styles.text1}></Text>
     <Text style={styles.text2}></Text>
     <Text style={styles.text3}></Text>
     <Text style={styles.text4}></Text>
+    <Text style={styles.text5}> Here we go, how it's going. There we go...</Text>
     <Text style={styles.text5}></Text>
-    <Text style={styles.text6}></Text>
-    <Text style={styles.text7}></Text>
-    <Text style={styles.text8}> Keep Scrolling </Text>
-    <Text style={styles.text9}></Text>
-    <Text style={styles.text10}></Text>
-  </View>
+    <Text style={styles.text5}></Text>
+    <Text style={styles.text5}></Text>
+    <Text style={styles.text5}></Text>
+    <Text style={styles.text5}></Text>
   </ScrollView>
+
 );
 const styles = StyleSheet.create({
     container:{
@@ -49,111 +48,57 @@ const styles = StyleSheet.create({
         text1: {
             color: '#000',
             marginTop: 20,
+            marginBottom: 20,
             paddingVertical: 15,
             fontSize: 20,
-            borderColor: "black",
+            borderColor: "#9ACD32",
             borderWidth: 4,
-            backgroundColor: "green"
+            backgroundColor: "yellow"
         },
         text2: {
             color: '#000',
             marginTop: 20,
+            marginBottom: 20,
             paddingVertical: 15,
             fontSize: 20,
-            borderColor: "black",
-            borderWidth: 10,
-            backgroundColor: "green"
+            borderColor: "#9ACD32",
+            borderWidth: 4,
+            backgroundColor: "yellow",
+            borderStyle: "dashed"
         },
         text3: {
             color: '#000',
             marginTop: 20,
-            paddingVertical: 15,
+            marginBottom: 20,
+            paddingVertical: 10,
             fontSize: 20,
-            borderColor: "black",
+            borderColor: "red",
             borderWidth: 4,
-            backgroundColor: "green",
-            borderStyle: "dotted"
+            backgroundColor: "yellow",
+            borderWidth: 15
 
         },
         text4: {
             color: '#000',
             marginTop: 20,
-            paddingVertical: 15,
+            marginBottom: 20,
+            paddingVertical: 10,
             fontSize: 20,
-            borderColor: "black",
+            borderColor: "#9ACD32",
             borderWidth: 4,
-            backgroundColor: "green",
-            opacity: .2
+            backgroundColor: "yellow",
+            borderStyle: "dotted"
         },
         text5: {
             color: '#000',
             marginTop: 20,
+            marginBottom: 20,
             paddingVertical: 15,
             fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "green",
-            borderStyle: "dashed"
+            borderColor: "#9ACD32",
+            borderWidth: 2,
+            backgroundColor: "yellow"
         },
-        text6: {
-            color: '#000',
-            marginTop: 20,
-            paddingVertical: 15,
-            fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "green",
-            borderTopColor: "blue"
-        },
-        text7: {
-            color: '#000',
-            marginTop: 20,
-            paddingVertical: 15,
-            fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "green",
-            borderTopWidth: 0
-        },
-        text8: {
-            color: '#000',
-            marginTop: 20,
-            paddingVertical: 5,
-            fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "green"
-        },
-        text9: {
-            color: '#000',
-            marginTop: 20,
-            paddingVertical: 15,
-            fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "purple"
-        },
-        text10: {
-            color: '#000',
-            marginTop: 20,
-            paddingVertical: 15,
-            fontSize: 20,
-            borderColor: "black",
-            borderWidth: 4,
-            backgroundColor: "green",
-            borderTopLeftRadius: 50,
-            borderTopRightRadius: 50,
-            borderBottomLeftRadius: 50,
-            borderBottomRightRadius: 50,
-        },
-        text: {
-            color: '#000',
-            marginTop: 10,
-            paddingVertical: 8,
-            fontSize: 20
-        },
-
-
 
 });
 
